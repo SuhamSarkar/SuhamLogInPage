@@ -1,5 +1,5 @@
 /* Setting margin and padding o as default */
-@media only screen and (max-width: 600px) {
+@media (min-width: 1400px) {
 
 *{
     margin: 0;
