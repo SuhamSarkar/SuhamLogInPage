@@ -1,0 +1,69 @@
+/* Setting margin and padding o as default */
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+body{
+    background: url(/Images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 96px;
+    /* right: 50px; */
+    left: 37%;
+    /* border: 2px solid red; */
+}
+.container h3{
+    display: inline-block;
+    font-size: 31px;
+    border-bottom: 2px solid purple;
+    margin: 11px;
+    padding: 4px 0; 
+}
+.box{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 17px 0px;
+}
+.box input{
+    color: white;
+    width: 73%;
+    margin: 8px 6px;
+    padding: 5px 1px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    /* border-radius: 7px; */
+    background: none;
+    border-bottom: 2px solid purple;
+}
+.box ::placeholder{
+    color: rgb(231, 201, 201);
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 21%;
+    margin: 0px 0px 2px 109px;
+    padding: 2px;
+    border: 2px solid purple;
+    /* border-color: gray; */
+    border-radius: 7px;
+    /* border: none; */
+    background: none;
+    color: white;
+}
+.btn:hover{
+    /* background: white; */
+    opacity: 0.7;
+    border: 2px solid rgb(113, 9, 113);
+    background: rgb(113, 9, 113);
+}
+.box i{
+    width: 13px;
+    text-align: center;
+    padding: 0px 10px;
+}
